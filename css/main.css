@@ -54,6 +54,29 @@ body {
 	font-weight: 800;
 }
 
+address {
+	font-style:normal;
+	font-weight: 100;
+}
+
+address > span:nth-child(3) {
+	font-weight: 100;
+	display: inline-block;
+	margin-bottom: 30px;
+}
+
+address span a {
+	color: white;
+	text-decoration: none;
+}
+
+address span a:hover {
+	color: #115e4b;
+}
+
+address > span {
+	font-weight: 600;
+}
 /*--------------------------------------------------------------
 1.2 - HEADINGS
 -------------------------------------------------------------- */
@@ -74,9 +97,6 @@ h2 {
 h3 {
 	font-weight: 300;
 	font-size: 2rem;
-}
-h4 {
-	margin-bottom: 0;
 }
 
 /*--------------------------------------------------------------
@@ -138,16 +158,8 @@ form a:hover {
 /*--------------------------------------------------------------
 1.5 - LISTS
 -------------------------------------------------------------- */
-dt, dd {
-	display: inline-block
-}
-dt {
-	font-weight:100;
-	width: 20px;
-}
-dd {
-	font-weight: 600;
-}
+
+
 /*--------------------------------------------------------------
 2.0 - MAIN MENU
 -------------------------------------------------------------- */
